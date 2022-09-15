@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="style.css">
+    <title>LION.FILM</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo-icon.svg">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container header_container">
+                <a class="burger_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+    
+                <div class="header_logo">
+                    <img src="img/logo.svg" alt="">
+                    <div class="header_title">LION.FILM</div>
+                </div>
+    
+                <div class="nav">
+                    <a href="#" class="nav_link">Фильмы</a>
+                    <a href="#" class="nav_link">Сериалы</a>
+                    <a href="#" class="nav_link">TV-шоу</a>
+                    <a href="#" class="nav_link">Аниме</a>
+                </div>
+    
+                <form action="#" class="search_form">
+                    <div class="search_box">
+                        <input type="text" required placeholder="Найти...">
+                        <button class="search_btn" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </header>
+    
+        <div class="side_bar side_bar_hide">
+            <div class="select_side_bar_action">
+                <div class="side_bar_option side_bar_option_active">Фильтры</div>
+                <div class="side_bar_option">Подборки</div>
+            </div>
+    
+            <div class="side_bar_content">
+                <form action="#" class="side_bar_filter">
+                    <div class="filter_name">название*</div>
+                    <input type="text">
+                    <div class="filter_name">год*</div>
+                    <input type="text">
+                    <div class="filter_name">рейтинг*</div>
+                    <input type="text">
+                </form>
+            </div>
+        </div>
+
+        <div class="main_content">
+            <section class="popular_section">
+                <div class="swiper slider_popular">
+                    <div class="swiper-wrapper popular_wrapper">
+                        <div class="swiper-slide popular_slide">
+                            <div class="popular_card">
+                                <img src="img/testposter/p1.webp" alt="">
+                                <div class="container">
+                                    <div class="pop_container">
+                                        <div class="title_block">
+                                            <div class="popular_title">Название фильма</div>
+                                            <div class="popular_year">2022</div>
+                                        </div>
+                                        <a href="#" class="popular_watch_btn">смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide popular_slide">
+                            <div class="popular_card">
+                                <img src="img/testposter/p5.webp" alt="">
+                                <div class="container">
+                                    <div class="pop_container">
+                                        <div class="title_block">
+                                            <div class="popular_title">Название фильма</div>
+                                            <div class="popular_year">2022</div>
+                                        </div>
+                                        <a href="#" class="popular_watch_btn">смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide popular_slide">
+                            <div class="popular_card">
+                                <img src="img/testposter/p3.jpg" alt="">
+                                <div class="container">
+                                    <div class="pop_container">
+                                        <div class="title_block">
+                                            <div class="popular_title">Название фильма</div>
+                                            <div class="popular_year">2022</div>
+                                        </div>
+                                        <a href="#" class="popular_watch_btn">смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide popular_slide">
+                            <div class="popular_card">
+                                <img src="img/testposter/p2.jpg" alt="">
+                                <div class="container">
+                                    <div class="pop_container">
+                                        <div class="title_block">
+                                            <div class="popular_title">Название фильма</div>
+                                            <div class="popular_year">2022</div>
+                                        </div>
+                                        <a href="#" class="popular_watch_btn">смотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev slider_popular_prev"></div>
+                    <div class="swiper-button-next slider_popular_next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section class="content_section">
+
+                <div class="container">
+                    <div class="compilation_title">Фильмы</div>
+                </div>
+                <div class="swiper slider slider_movies">
+                    <div class="compilation_shadow"></div>
+                    <div class="swiper-wrapper slider_wrapper">
+
+                        <div class="swiper-slide movie_slide movie_slide_active">
+                            <div class="card card_detail_info_active">
+                                <img src="img/testposter/1.webp" alt="">
+                                <a href="#" class="watch_btn"></a>
+                                <a href="#" class="more_info_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg></a>
+                                <div class="card_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating">7.7</div>
+                                </div>
+                                <div class="card_detail_info">
+                                    <div class="movie_title movie_title_full">Название фильма</div>
+                                    <div class="movie_year">2022 - Страна</div>
+                                    <div class="card_detail_info_block">
+                                        <div class="movie_genre_card">приключение</div>
+                                        <div class="movie_genre_card">фантастика</div>
+                                        <div class="movie_genre_card">детектив</div>
+                                    </div>
+                                    <div class="card_detail_info_block">
+                                        <div class="movie_rating kp">7.7</div>
+                                        <div class="movie_rating imdb">7.7</div>
+                                    </div>
+                                    <div class="movie_time">144 мин.</div>
+                                    <div class="movie_time">7 777 777 просмотров</div>
+                                    <div class="movie_time">144 мин.</div>
+                                    <div class="movie_time">144 мин.</div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide movie_slide">
+                            <div class="card">
+                                <img src="img/testposter/2.webp" alt="">
+                                <a href="#" class="watch_btn"></a>
+                                <a href="#" class="more_info_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg></a>
+                                <div class="card_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating">7.7</div>
+                                </div>
+                                <div class="card_detail_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating kp">7.7</div>
+                                    <div class="movie_rating imdb">7.7</div>
+                                    <div class="movie_time">144 мин.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide movie_slide">
+                            <div class="card">
+                                <img src="img/testposter/3.webp" alt="">
+                                <a href="#" class="watch_btn"></a>
+                                <a href="#" class="more_info_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg></a>
+                                <div class="card_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating">7.7</div>
+                                </div>
+                                <div class="card_detail_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating kp">7.7</div>
+                                    <div class="movie_rating imdb">7.7</div>
+                                    <div class="movie_time">144 мин.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide movie_slide">
+                            <div class="card">
+                                <img src="img/testposter/4.webp" alt="">
+                                <a href="#" class="watch_btn"></a>
+                                <a href="#" class="more_info_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg></a>
+                                <div class="card_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating">7.7</div>
+                                </div>
+                                <div class="card_detail_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating kp">7.7</div>
+                                    <div class="movie_rating imdb">7.7</div>
+                                    <div class="movie_time">144 мин.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide movie_slide">
+                            <div class="card">
+                                <img src="img/testposter/5.webp" alt="">
+                                <a href="#" class="watch_btn"></a>
+                                <a href="#" class="more_info_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg></a>
+                                <div class="card_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating">7.7</div>
+                                </div>
+                                <div class="card_detail_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating kp">7.7</div>
+                                    <div class="movie_rating imdb">7.7</div>
+                                    <div class="movie_time">144 мин.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide movie_slide">
+                            <div class="card">
+                                <img src="img/testposter/6.webp" alt="">
+                                <a href="#" class="watch_btn"></a>
+                                <a href="#" class="more_info_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg></a>
+                                <div class="card_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating">7.7</div>
+                                </div>
+                                <div class="card_detail_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating kp">7.7</div>
+                                    <div class="movie_rating imdb">7.7</div>
+                                    <div class="movie_time">144 мин.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide movie_slide">
+                            <div class="card">
+                                <img src="img/testposter/7.webp" alt="">
+                                <a href="#" class="watch_btn"></a>
+                                <a href="#" class="more_info_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg></a>
+                                <div class="card_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating">7.7</div>
+                                </div>
+                                <div class="card_detail_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating kp">7.7</div>
+                                    <div class="movie_rating imdb">7.7</div>
+                                    <div class="movie_time">144 мин.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide movie_slide">
+                            <div class="card">
+                                <img src="img/testposter/8.webp" alt="">
+                                <a href="#" class="watch_btn"></a>
+                                <a href="#" class="more_info_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg></a>
+                                <div class="card_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating">7.7</div>
+                                </div>
+                                <div class="card_detail_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating kp">7.7</div>
+                                    <div class="movie_rating imdb">7.7</div>
+                                    <div class="movie_time">144 мин.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide movie_slide">
+                            <div class="card">
+                                <img src="img/testposter/9.webp" alt="">
+                                <a href="#" class="watch_btn"></a>
+                                <a href="#" class="more_info_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg></a>
+                                <div class="card_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating">7.7</div>
+                                </div>
+                                <div class="card_detail_info">
+                                    <div class="movie_title">Название фильма</div>
+                                    <div class="movie_year">2022</div>
+                                    <div class="movie_rating kp">7.7</div>
+                                    <div class="movie_rating imdb">7.7</div>
+                                    <div class="movie_time">144 мин.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-prev slider_movie_prev"></div>
+                    <div class="swiper-button-next slider_movie_next"></div>
+                </div>
+
+                <div class="container">
+                    <div class="line"></div>
+                </div>
+
+
+            </section>
+        </div>
+
+        <footer>
+            <div class="container footer_container">
+                <div class="header_logo">
+                    <img src="img/logo.svg" alt="">
+                    <div class="header_title">LION.FILM</div>
+                </div>
+                <div class="footer_contact">Контакт: <span>example@mail.com</span></div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/swiper.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
